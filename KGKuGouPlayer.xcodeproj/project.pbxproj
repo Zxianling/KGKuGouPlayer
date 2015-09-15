@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F3E7D71BA7B1AA0072FFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E7D61BA7B1AA0072FFAC /* main.m */; };
+		C7F3E7DA1BA7B1AA0072FFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E7D91BA7B1AA0072FFAC /* AppDelegate.m */; };
+		C7F3E7DD1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E7DB1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodeld */; };
+		C7F3E7E31BA7B1AA0072FFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F3E7E11BA7B1AA0072FFAC /* Main.storyboard */; };
+		C7F3E7E51BA7B1AA0072FFAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F3E7E41BA7B1AA0072FFAC /* Images.xcassets */; };
+		C7F3E7E81BA7B1AA0072FFAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F3E7E61BA7B1AA0072FFAC /* LaunchScreen.xib */; };
+		C7F3E7F41BA7B1AA0072FFAC /* KGKuGouPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E7F31BA7B1AA0072FFAC /* KGKuGouPlayerTests.m */; };
+		C7F3E8391BA7BD410072FFAC /* NSString+DateTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E8321BA7BD400072FFAC /* NSString+DateTransform.m */; };
+		C7F3E83A1BA7BD410072FFAC /* NSString+getAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E8341BA7BD400072FFAC /* NSString+getAddress.m */; };
+		C7F3E83B1BA7BD410072FFAC /* UIImage+MoreExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E8361BA7BD410072FFAC /* UIImage+MoreExtensions.m */; };
+		C7F3E83C1BA7BD410072FFAC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3E8381BA7BD410072FFAC /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7F3E7EE1BA7B1AA0072FFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F3E7C91BA7B1AA0072FFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F3E7D01BA7B1AA0072FFAC;
+			remoteInfo = KGKuGouPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7F3E7D11BA7B1AA0072FFAC /* KGKuGouPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGKuGouPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F3E7D51BA7B1AA0072FFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F3E7D61BA7B1AA0072FFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7F3E7D81BA7B1AA0072FFAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7F3E7D91BA7B1AA0072FFAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7F3E7DC1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KGKuGouPlayer.xcdatamodel; sourceTree = "<group>"; };
+		C7F3E7E21BA7B1AA0072FFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7F3E7E41BA7B1AA0072FFAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7F3E7E71BA7B1AA0072FFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C7F3E7ED1BA7B1AA0072FFAC /* KGKuGouPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KGKuGouPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F3E7F21BA7B1AA0072FFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F3E7F31BA7B1AA0072FFAC /* KGKuGouPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGKuGouPlayerTests.m; sourceTree = "<group>"; };
+		C7F3E8311BA7BD400072FFAC /* NSString+DateTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DateTransform.h"; sourceTree = "<group>"; };
+		C7F3E8321BA7BD400072FFAC /* NSString+DateTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateTransform.m"; sourceTree = "<group>"; };
+		C7F3E8331BA7BD400072FFAC /* NSString+getAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+getAddress.h"; sourceTree = "<group>"; };
+		C7F3E8341BA7BD400072FFAC /* NSString+getAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+getAddress.m"; sourceTree = "<group>"; };
+		C7F3E8351BA7BD400072FFAC /* UIImage+MoreExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MoreExtensions.h"; sourceTree = "<group>"; };
+		C7F3E8361BA7BD410072FFAC /* UIImage+MoreExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MoreExtensions.m"; sourceTree = "<group>"; };
+		C7F3E8371BA7BD410072FFAC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C7F3E8381BA7BD410072FFAC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F3E7CE1BA7B1AA0072FFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F3E7EA1BA7B1AA0072FFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F3E7C81BA7B1AA0072FFAC = {
+			isa = PBXGroup;
+			children = (
+				C7F3E7D31BA7B1AA0072FFAC /* KGKuGouPlayer */,
+				C7F3E7F01BA7B1AA0072FFAC /* KGKuGouPlayerTests */,
+				C7F3E7D21BA7B1AA0072FFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F3E7D21BA7B1AA0072FFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3E7D11BA7B1AA0072FFAC /* KGKuGouPlayer.app */,
+				C7F3E7ED1BA7B1AA0072FFAC /* KGKuGouPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F3E7D31BA7B1AA0072FFAC /* KGKuGouPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3E8001BA7B3D10072FFAC /* Others */,
+				C7F3E7FF1BA7B3A60072FFAC /* Controllers */,
+				C7F3E7FE1BA7B39C0072FFAC /* Views */,
+				C7F3E7FD1BA7B3950072FFAC /* Models */,
+				C7F3E7E11BA7B1AA0072FFAC /* Main.storyboard */,
+				C7F3E7E41BA7B1AA0072FFAC /* Images.xcassets */,
+				C7F3E7E61BA7B1AA0072FFAC /* LaunchScreen.xib */,
+				C7F3E7DB1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodeld */,
+				C7F3E7D41BA7B1AA0072FFAC /* Supporting Files */,
+			);
+			path = KGKuGouPlayer;
+			sourceTree = "<group>";
+		};
+		C7F3E7D41BA7B1AA0072FFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3E7D51BA7B1AA0072FFAC /* Info.plist */,
+				C7F3E7D61BA7B1AA0072FFAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7F3E7F01BA7B1AA0072FFAC /* KGKuGouPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3E7F31BA7B1AA0072FFAC /* KGKuGouPlayerTests.m */,
+				C7F3E7F11BA7B1AA0072FFAC /* Supporting Files */,
+			);
+			path = KGKuGouPlayerTests;
+			sourceTree = "<group>";
+		};
+		C7F3E7F11BA7B1AA0072FFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3E7F21BA7B1AA0072FFAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7F3E7FD1BA7B3950072FFAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C7F3E7FE1BA7B39C0072FFAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C7F3E7FF1BA7B3A60072FFAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C7F3E8001BA7B3D10072FFAC /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3E8301BA7BD400072FFAC /* Category */,
+				C7F3E7D81BA7B1AA0072FFAC /* AppDelegate.h */,
+				C7F3E7D91BA7B1AA0072FFAC /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		C7F3E8301BA7BD400072FFAC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3E8311BA7BD400072FFAC /* NSString+DateTransform.h */,
+				C7F3E8321BA7BD400072FFAC /* NSString+DateTransform.m */,
+				C7F3E8331BA7BD400072FFAC /* NSString+getAddress.h */,
+				C7F3E8341BA7BD400072FFAC /* NSString+getAddress.m */,
+				C7F3E8351BA7BD400072FFAC /* UIImage+MoreExtensions.h */,
+				C7F3E8361BA7BD410072FFAC /* UIImage+MoreExtensions.m */,
+				C7F3E8371BA7BD410072FFAC /* UIView+Extension.h */,
+				C7F3E8381BA7BD410072FFAC /* UIView+Extension.m */,
+			);
+			name = Category;
+			path = "../../../../Desktop/有用/Category";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F3E7D01BA7B1AA0072FFAC /* KGKuGouPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F3E7F71BA7B1AA0072FFAC /* Build configuration list for PBXNativeTarget "KGKuGouPlayer" */;
+			buildPhases = (
+				C7F3E7CD1BA7B1AA0072FFAC /* Sources */,
+				C7F3E7CE1BA7B1AA0072FFAC /* Frameworks */,
+				C7F3E7CF1BA7B1AA0072FFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KGKuGouPlayer;
+			productName = KGKuGouPlayer;
+			productReference = C7F3E7D11BA7B1AA0072FFAC /* KGKuGouPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7F3E7EC1BA7B1AA0072FFAC /* KGKuGouPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F3E7FA1BA7B1AA0072FFAC /* Build configuration list for PBXNativeTarget "KGKuGouPlayerTests" */;
+			buildPhases = (
+				C7F3E7E91BA7B1AA0072FFAC /* Sources */,
+				C7F3E7EA1BA7B1AA0072FFAC /* Frameworks */,
+				C7F3E7EB1BA7B1AA0072FFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7F3E7EF1BA7B1AA0072FFAC /* PBXTargetDependency */,
+			);
+			name = KGKuGouPlayerTests;
+			productName = KGKuGouPlayerTests;
+			productReference = C7F3E7ED1BA7B1AA0072FFAC /* KGKuGouPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F3E7C91BA7B1AA0072FFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = neuedu;
+				TargetAttributes = {
+					C7F3E7D01BA7B1AA0072FFAC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C7F3E7EC1BA7B1AA0072FFAC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C7F3E7D01BA7B1AA0072FFAC;
+					};
+				};
+			};
+			buildConfigurationList = C7F3E7CC1BA7B1AA0072FFAC /* Build configuration list for PBXProject "KGKuGouPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7F3E7C81BA7B1AA0072FFAC;
+			productRefGroup = C7F3E7D21BA7B1AA0072FFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F3E7D01BA7B1AA0072FFAC /* KGKuGouPlayer */,
+				C7F3E7EC1BA7B1AA0072FFAC /* KGKuGouPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7F3E7CF1BA7B1AA0072FFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3E7E31BA7B1AA0072FFAC /* Main.storyboard in Resources */,
+				C7F3E7E81BA7B1AA0072FFAC /* LaunchScreen.xib in Resources */,
+				C7F3E7E51BA7B1AA0072FFAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F3E7EB1BA7B1AA0072FFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F3E7CD1BA7B1AA0072FFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3E83A1BA7BD410072FFAC /* NSString+getAddress.m in Sources */,
+				C7F3E8391BA7BD410072FFAC /* NSString+DateTransform.m in Sources */,
+				C7F3E7DA1BA7B1AA0072FFAC /* AppDelegate.m in Sources */,
+				C7F3E83C1BA7BD410072FFAC /* UIView+Extension.m in Sources */,
+				C7F3E7D71BA7B1AA0072FFAC /* main.m in Sources */,
+				C7F3E83B1BA7BD410072FFAC /* UIImage+MoreExtensions.m in Sources */,
+				C7F3E7DD1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F3E7E91BA7B1AA0072FFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3E7F41BA7B1AA0072FFAC /* KGKuGouPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7F3E7EF1BA7B1AA0072FFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F3E7D01BA7B1AA0072FFAC /* KGKuGouPlayer */;
+			targetProxy = C7F3E7EE1BA7B1AA0072FFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7F3E7E11BA7B1AA0072FFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F3E7E21BA7B1AA0072FFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7F3E7E61BA7B1AA0072FFAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F3E7E71BA7B1AA0072FFAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7F3E7F51BA7B1AA0072FFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7F3E7F61BA7B1AA0072FFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7F3E7F81BA7B1AA0072FFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KGKuGouPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7F3E7F91BA7B1AA0072FFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KGKuGouPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7F3E7FB1BA7B1AA0072FFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KGKuGouPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KGKuGouPlayer.app/KGKuGouPlayer";
+			};
+			name = Debug;
+		};
+		C7F3E7FC1BA7B1AA0072FFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KGKuGouPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KGKuGouPlayer.app/KGKuGouPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F3E7CC1BA7B1AA0072FFAC /* Build configuration list for PBXProject "KGKuGouPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F3E7F51BA7B1AA0072FFAC /* Debug */,
+				C7F3E7F61BA7B1AA0072FFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F3E7F71BA7B1AA0072FFAC /* Build configuration list for PBXNativeTarget "KGKuGouPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F3E7F81BA7B1AA0072FFAC /* Debug */,
+				C7F3E7F91BA7B1AA0072FFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F3E7FA1BA7B1AA0072FFAC /* Build configuration list for PBXNativeTarget "KGKuGouPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F3E7FB1BA7B1AA0072FFAC /* Debug */,
+				C7F3E7FC1BA7B1AA0072FFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7F3E7DB1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7F3E7DC1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodel */,
+			);
+			currentVersion = C7F3E7DC1BA7B1AA0072FFAC /* KGKuGouPlayer.xcdatamodel */;
+			path = KGKuGouPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7F3E7C91BA7B1AA0072FFAC /* Project object */;
+}
